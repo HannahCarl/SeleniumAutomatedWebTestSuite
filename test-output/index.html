@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Wolfram_SDET_Tests_-_Hannah_Carl">
+              <span class="suite-name border-passed">Wolfram SDET Tests - Hannah Carl</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Wolfram_SDET_Tests_-_Hannah_Carl">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Wolfram_SDET_Tests_-_Hannah_Carl">
+                    <span class="test-stats">12 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Wolfram_SDET_Tests_-_Hannah_Carl">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Wolfram_SDET_Tests_-_Hannah_Carl">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Wolfram_SDET_Tests_-_Hannah_Carl">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Wolfram_SDET_Tests_-_Hannah_Carl">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Wolfram_SDET_Tests_-_Hannah_Carl">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Wolfram_SDET_Tests_-_Hannah_Carl" class="hide-methods passed suite-Wolfram_SDET_Tests_-_Hannah_Carl"> (hide)</a> <!-- hide-methods passed suite-Wolfram_SDET_Tests_-_Hannah_Carl -->
+                      <a href="#" panel-name="suite-Wolfram_SDET_Tests_-_Hannah_Carl" class="show-methods passed suite-Wolfram_SDET_Tests_-_Hannah_Carl"> (show)</a> <!-- show-methods passed suite-Wolfram_SDET_Tests_-_Hannah_Carl -->
+                    </span>
+                    <div class="method-list-content passed suite-Wolfram_SDET_Tests_-_Hannah_Carl">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wolfram_SDET_Tests_-_Hannah_Carl" title="com.wolfram.sdetchallenge.testng.ExpectedResultTest" hash-for-method="checkExpectedResult(3 - 4, -1)">checkExpectedResult(3 - 4, -1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wolfram_SDET_Tests_-_Hannah_Carl" title="com.wolfram.sdetchallenge.testng.ExpectedResultTest" hash-for-method="checkExpectedResult(2 + 5, 7)">checkExpectedResult(2 + 5, 7)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wolfram_SDET_Tests_-_Hannah_Carl" title="com.wolfram.sdetchallenge.testng.ExpectedResultTest" hash-for-method="checkExpectedResult(0, zero)">checkExpectedResult(0, zero)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wolfram_SDET_Tests_-_Hannah_Carl" title="com.wolfram.sdetchallenge.testng.ExpectedResultTest" hash-for-method="checkExpectedResult(6X6, 36)">checkExpectedResult(6X6, 36)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wolfram_SDET_Tests_-_Hannah_Carl" title="com.wolfram.sdetchallenge.testng.ExpectedResultTest" hash-for-method="checkExpectedResult(how many seconds in a year, 3.154×10^7 seconds)">checkExpectedResult(how many seconds in a year, 3.154×10^7 seconds)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wolfram_SDET_Tests_-_Hannah_Carl" title="com.wolfram.sdetchallenge.testng.ExpectedResultTest" hash-for-method="checkExpectedResult(MDCCLXXVI, 1776)">checkExpectedResult(MDCCLXXVI, 1776)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wolfram_SDET_Tests_-_Hannah_Carl" title="com.wolfram.sdetchallenge.testng.ExpectedResultTest" hash-for-method="checkExpectedResult(is x^2-x surjective?, y(x) = x^2 - x is not surjective onto R)">checkExpectedResult(is x^2-x surjective?, y(x) = x^2 - x is not surjective onto R)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wolfram_SDET_Tests_-_Hannah_Carl" title="com.wolfram.sdetchallenge.testng.InputMatchTest" hash-for-method="confirmTestInput(3 - 4)">confirmTestInput(3 - 4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wolfram_SDET_Tests_-_Hannah_Carl" title="com.wolfram.sdetchallenge.testng.InputMatchTest" hash-for-method="confirmTestInput(2 + 5)">confirmTestInput(2 + 5)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wolfram_SDET_Tests_-_Hannah_Carl" title="com.wolfram.sdetchallenge.testng.InputMatchTest" hash-for-method="confirmTestInput(0)">confirmTestInput(0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wolfram_SDET_Tests_-_Hannah_Carl" title="com.wolfram.sdetchallenge.testng.InputMatchTest" hash-for-method="confirmTestInput(list of months with exactly 31 days)">confirmTestInput(list of months with exactly 31 days)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wolfram_SDET_Tests_-_Hannah_Carl" title="com.wolfram.sdetchallenge.testng.InputMatchTest" hash-for-method="confirmTestInput(_ | a | l | _ | _ | l | a | _ | _)">confirmTestInput(_ | a | l | _ | _ | l | a | _ | _)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wolfram_SDET_Tests_-_Hannah_Carl" title="com.wolfram.sdetchallenge.testng.CreateNotebookTest" hash-for-method="createNotebookTest((unnamed) - Wolfram Development Platform)">createNotebookTest((unnamed) - Wolfram Development Platform)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wolfram_SDET_Tests_-_Hannah_Carl" title="com.wolfram.sdetchallenge.testng.NotebookButtonCheck" hash-for-method="hyperLinkTest">hyperLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wolfram_SDET_Tests_-_Hannah_Carl" title="com.wolfram.sdetchallenge.testng.NotebookButtonCheck" hash-for-method="specialCharactersTest">specialCharactersTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wolfram_SDET_Tests_-_Hannah_Carl" title="com.wolfram.sdetchallenge.testng.InputPageButtonCheck" hash-for-method="verifyBrowseExamplesButton(https://www.wolframalpha.com/examples/?src=input)">verifyBrowseExamplesButton(https://www.wolframalpha.com/examples/?src=input)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wolfram_SDET_Tests_-_Hannah_Carl" title="com.wolfram.sdetchallenge.testng.InputPageButtonCheck" hash-for-method="verifyMathematicsButton(https://www.wolframalpha.com/examples/mathematics/)">verifyMathematicsButton(https://www.wolframalpha.com/examples/mathematics/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Wolfram_SDET_Tests_-_Hannah_Carl" title="com.wolfram.sdetchallenge.testng.InputPageButtonCheck" hash-for-method="verifyScienceTechButton(https://www.wolframalpha.com/examples/science-and-technology/)">verifyScienceTechButton(https://www.wolframalpha.com/examples/science-and-technology/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Wolfram_SDET_Tests_-_Hannah_Carl -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Wolfram_SDET_Tests_-_Hannah_Carl" class="panel Wolfram_SDET_Tests_-_Hannah_Carl">
+          <div class="suite-Wolfram_SDET_Tests_-_Hannah_Carl-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.wolfram.sdetchallenge.testng.InputMatchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="confirmTestInput(3 - 4)">
+                  </a> <!-- confirmTestInput(3 - 4) -->
+                  <span class="method-name">confirmTestInput</span>
+                  <span class="parameters">(3 - 4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="confirmTestInput(2 + 5)">
+                  </a> <!-- confirmTestInput(2 + 5) -->
+                  <span class="method-name">confirmTestInput</span>
+                  <span class="parameters">(2 + 5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="confirmTestInput(0)">
+                  </a> <!-- confirmTestInput(0) -->
+                  <span class="method-name">confirmTestInput</span>
+                  <span class="parameters">(0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="confirmTestInput(list of months with exactly 31 days)">
+                  </a> <!-- confirmTestInput(list of months with exactly 31 days) -->
+                  <span class="method-name">confirmTestInput</span>
+                  <span class="parameters">(list of months with exactly 31 days)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="confirmTestInput(_ | a | l | _ | _ | l | a | _ | _)">
+                  </a> <!-- confirmTestInput(_ | a | l | _ | _ | l | a | _ | _) -->
+                  <span class="method-name">confirmTestInput</span>
+                  <span class="parameters">(_ | a | l | _ | _ | l | a | _ | _)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Wolfram_SDET_Tests_-_Hannah_Carl-class-passed -->
+          <div class="suite-Wolfram_SDET_Tests_-_Hannah_Carl-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.wolfram.sdetchallenge.testng.CreateNotebookTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNotebookTest((unnamed) - Wolfram Development Platform)">
+                  </a> <!-- createNotebookTest((unnamed) - Wolfram Development Platform) -->
+                  <span class="method-name">createNotebookTest</span>
+                  <span class="parameters">((unnamed) - Wolfram Development Platform)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Wolfram_SDET_Tests_-_Hannah_Carl-class-passed -->
+          <div class="suite-Wolfram_SDET_Tests_-_Hannah_Carl-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.wolfram.sdetchallenge.testng.InputPageButtonCheck</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBrowseExamplesButton(https://www.wolframalpha.com/examples/?src=input)">
+                  </a> <!-- verifyBrowseExamplesButton(https://www.wolframalpha.com/examples/?src=input) -->
+                  <span class="method-name">verifyBrowseExamplesButton</span>
+                  <span class="parameters">(https://www.wolframalpha.com/examples/?src=input)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMathematicsButton(https://www.wolframalpha.com/examples/mathematics/)">
+                  </a> <!-- verifyMathematicsButton(https://www.wolframalpha.com/examples/mathematics/) -->
+                  <span class="method-name">verifyMathematicsButton</span>
+                  <span class="parameters">(https://www.wolframalpha.com/examples/mathematics/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyScienceTechButton(https://www.wolframalpha.com/examples/science-and-technology/)">
+                  </a> <!-- verifyScienceTechButton(https://www.wolframalpha.com/examples/science-and-technology/) -->
+                  <span class="method-name">verifyScienceTechButton</span>
+                  <span class="parameters">(https://www.wolframalpha.com/examples/science-and-technology/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Wolfram_SDET_Tests_-_Hannah_Carl-class-passed -->
+          <div class="suite-Wolfram_SDET_Tests_-_Hannah_Carl-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.wolfram.sdetchallenge.testng.NotebookButtonCheck</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="hyperLinkTest">
+                  </a> <!-- hyperLinkTest -->
+                  <span class="method-name">hyperLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="specialCharactersTest">
+                  </a> <!-- specialCharactersTest -->
+                  <span class="method-name">specialCharactersTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Wolfram_SDET_Tests_-_Hannah_Carl-class-passed -->
+          <div class="suite-Wolfram_SDET_Tests_-_Hannah_Carl-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.wolfram.sdetchallenge.testng.ExpectedResultTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkExpectedResult(3 - 4, -1)">
+                  </a> <!-- checkExpectedResult(3 - 4, -1) -->
+                  <span class="method-name">checkExpectedResult</span>
+                  <span class="parameters">(3 - 4, -1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkExpectedResult(2 + 5, 7)">
+                  </a> <!-- checkExpectedResult(2 + 5, 7) -->
+                  <span class="method-name">checkExpectedResult</span>
+                  <span class="parameters">(2 + 5, 7)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkExpectedResult(0, zero)">
+                  </a> <!-- checkExpectedResult(0, zero) -->
+                  <span class="method-name">checkExpectedResult</span>
+                  <span class="parameters">(0, zero)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkExpectedResult(6X6, 36)">
+                  </a> <!-- checkExpectedResult(6X6, 36) -->
+                  <span class="method-name">checkExpectedResult</span>
+                  <span class="parameters">(6X6, 36)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkExpectedResult(how many seconds in a year, 3.154×10^7 seconds)">
+                  </a> <!-- checkExpectedResult(how many seconds in a year, 3.154×10^7 seconds) -->
+                  <span class="method-name">checkExpectedResult</span>
+                  <span class="parameters">(how many seconds in a year, 3.154×10^7 seconds)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkExpectedResult(MDCCLXXVI, 1776)">
+                  </a> <!-- checkExpectedResult(MDCCLXXVI, 1776) -->
+                  <span class="method-name">checkExpectedResult</span>
+                  <span class="parameters">(MDCCLXXVI, 1776)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkExpectedResult(is x^2-x surjective?, y(x) = x^2 - x is not surjective onto R)">
+                  </a> <!-- checkExpectedResult(is x^2-x surjective?, y(x) = x^2 - x is not surjective onto R) -->
+                  <span class="method-name">checkExpectedResult</span>
+                  <span class="parameters">(is x^2-x surjective?, y(x) = x^2 - x is not surjective onto R)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Wolfram_SDET_Tests_-_Hannah_Carl-class-passed -->
+        </div> <!-- panel Wolfram_SDET_Tests_-_Hannah_Carl -->
+        <div panel-name="test-xml-Wolfram_SDET_Tests_-_Hannah_Carl" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/hannahposch/wolframsdetchallenge/src/com/wolfram/sdetchallenge/testng/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Wolfram SDET Tests - Hannah Carl&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test1&quot;&gt;
+    &lt;parameter name=&quot;testInput&quot; value=&quot;3 - 4&quot;/&gt;
+    &lt;parameter name=&quot;testExpectedResult&quot; value=&quot;-1&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.wolfram.sdetchallenge.testng.InputMatchTest&quot;/&gt;
+      &lt;class name=&quot;com.wolfram.sdetchallenge.testng.ExpectedResultTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test1 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test2&quot;&gt;
+    &lt;parameter name=&quot;testInput&quot; value=&quot;2 + 5&quot;/&gt;
+    &lt;parameter name=&quot;testExpectedResult&quot; value=&quot;7&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.wolfram.sdetchallenge.testng.InputMatchTest&quot;/&gt;
+      &lt;class name=&quot;com.wolfram.sdetchallenge.testng.ExpectedResultTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test2 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test3&quot;&gt;
+    &lt;parameter name=&quot;testInput&quot; value=&quot;0&quot;/&gt;
+    &lt;parameter name=&quot;testExpectedResult&quot; value=&quot;zero&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.wolfram.sdetchallenge.testng.InputMatchTest&quot;/&gt;
+      &lt;class name=&quot;com.wolfram.sdetchallenge.testng.ExpectedResultTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test3 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test4&quot;&gt;
+    &lt;parameter name=&quot;testInput&quot; value=&quot;6X6&quot;/&gt;
+    &lt;parameter name=&quot;testExpectedResult&quot; value=&quot;36&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.wolfram.sdetchallenge.testng.ExpectedResultTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test4 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test5&quot;&gt;
+    &lt;parameter name=&quot;testInput&quot; value=&quot;how many seconds in a year&quot;/&gt;
+    &lt;parameter name=&quot;testExpectedResult&quot; value=&quot;3.154×10^7 seconds&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.wolfram.sdetchallenge.testng.ExpectedResultTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test5 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test6&quot;&gt;
+    &lt;parameter name=&quot;testInput&quot; value=&quot;MDCCLXXVI&quot;/&gt;
+    &lt;parameter name=&quot;testExpectedResult&quot; value=&quot;1776&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.wolfram.sdetchallenge.testng.ExpectedResultTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test6 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test7&quot;&gt;
+    &lt;parameter name=&quot;testInput&quot; value=&quot;is x^2-x surjective?&quot;/&gt;
+    &lt;parameter name=&quot;testExpectedResult&quot; value=&quot;y(x) = x^2 - x is not surjective onto R&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.wolfram.sdetchallenge.testng.ExpectedResultTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test7 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test8&quot;&gt;
+    &lt;parameter name=&quot;testInput&quot; value=&quot;list of months with exactly 31 days&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.wolfram.sdetchallenge.testng.InputMatchTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test8 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test9&quot;&gt;
+    &lt;parameter name=&quot;testInput&quot; value=&quot;_ | a | l | _ | _ | l | a | _ | _&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.wolfram.sdetchallenge.testng.InputMatchTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test9 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test10&quot;&gt;
+    &lt;parameter name=&quot;mathematicsURL&quot; value=&quot;https://www.wolframalpha.com/examples/mathematics/&quot;/&gt;
+    &lt;parameter name=&quot;scienceTechURL&quot; value=&quot;https://www.wolframalpha.com/examples/science-and-technology/&quot;/&gt;
+    &lt;parameter name=&quot;browseExamplesURL&quot; value=&quot;https://www.wolframalpha.com/examples/?src=input&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.wolfram.sdetchallenge.testng.InputPageButtonCheck&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test10 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test11&quot;&gt;
+    &lt;parameter name=&quot;notebookTitle&quot; value=&quot;(unnamed) - Wolfram Development Platform&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.wolfram.sdetchallenge.testng.CreateNotebookTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test11 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test12&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.wolfram.sdetchallenge.testng.NotebookButtonCheck&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test12 --&gt;
+&lt;/suite&gt; &lt;!-- Wolfram SDET Tests - Hannah Carl --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Wolfram_SDET_Tests_-_Hannah_Carl" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Wolfram SDET Tests - Hannah Carl</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test1 (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Test2 (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Test3 (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Test4 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test5 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test6 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test7 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test8 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test9 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test10 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test11 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test12 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Wolfram_SDET_Tests_-_Hannah_Carl" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Wolfram SDET Tests - Hannah Carl</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Wolfram_SDET_Tests_-_Hannah_Carl" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Wolfram SDET Tests - Hannah Carl</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Wolfram_SDET_Tests_-_Hannah_Carl');
+function tableData_Wolfram_SDET_Tests_-_Hannah_Carl() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'hyperLinkTest')
+data.setCell(0, 2, 'com.wolfram.sdetchallenge.testng.NotebookButtonCheck')
+data.setCell(0, 3, 13643);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createNotebookTest')
+data.setCell(1, 2, 'com.wolfram.sdetchallenge.testng.CreateNotebookTest')
+data.setCell(1, 3, 13456);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'specialCharactersTest')
+data.setCell(2, 2, 'com.wolfram.sdetchallenge.testng.NotebookButtonCheck')
+data.setCell(2, 3, 12926);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'confirmTestInput')
+data.setCell(3, 2, 'com.wolfram.sdetchallenge.testng.InputMatchTest')
+data.setCell(3, 3, 7602);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkExpectedResult')
+data.setCell(4, 2, 'com.wolfram.sdetchallenge.testng.ExpectedResultTest')
+data.setCell(4, 3, 6981);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'checkExpectedResult')
+data.setCell(5, 2, 'com.wolfram.sdetchallenge.testng.ExpectedResultTest')
+data.setCell(5, 3, 6491);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'confirmTestInput')
+data.setCell(6, 2, 'com.wolfram.sdetchallenge.testng.InputMatchTest')
+data.setCell(6, 3, 6432);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'checkExpectedResult')
+data.setCell(7, 2, 'com.wolfram.sdetchallenge.testng.ExpectedResultTest')
+data.setCell(7, 3, 6407);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'checkExpectedResult')
+data.setCell(8, 2, 'com.wolfram.sdetchallenge.testng.ExpectedResultTest')
+data.setCell(8, 3, 6151);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'confirmTestInput')
+data.setCell(9, 2, 'com.wolfram.sdetchallenge.testng.InputMatchTest')
+data.setCell(9, 3, 6088);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyBrowseExamplesButton')
+data.setCell(10, 2, 'com.wolfram.sdetchallenge.testng.InputPageButtonCheck')
+data.setCell(10, 3, 5978);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'checkExpectedResult')
+data.setCell(11, 2, 'com.wolfram.sdetchallenge.testng.ExpectedResultTest')
+data.setCell(11, 3, 5730);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'confirmTestInput')
+data.setCell(12, 2, 'com.wolfram.sdetchallenge.testng.InputMatchTest')
+data.setCell(12, 3, 5574);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'checkExpectedResult')
+data.setCell(13, 2, 'com.wolfram.sdetchallenge.testng.ExpectedResultTest')
+data.setCell(13, 3, 5428);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'checkExpectedResult')
+data.setCell(14, 2, 'com.wolfram.sdetchallenge.testng.ExpectedResultTest')
+data.setCell(14, 3, 5296);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'confirmTestInput')
+data.setCell(15, 2, 'com.wolfram.sdetchallenge.testng.InputMatchTest')
+data.setCell(15, 3, 4711);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyMathematicsButton')
+data.setCell(16, 2, 'com.wolfram.sdetchallenge.testng.InputPageButtonCheck')
+data.setCell(16, 3, 2562);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyScienceTechButton')
+data.setCell(17, 2, 'com.wolfram.sdetchallenge.testng.InputPageButtonCheck')
+data.setCell(17, 3, 1417);
+window.suiteTableData['Wolfram_SDET_Tests_-_Hannah_Carl']= { tableData: data, tableDiv: 'times-div-Wolfram_SDET_Tests_-_Hannah_Carl'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Wolfram_SDET_Tests_-_Hannah_Carl">
+              </div> <!-- times-div-Wolfram_SDET_Tests_-_Hannah_Carl -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Wolfram_SDET_Tests_-_Hannah_Carl" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Wolfram SDET Tests - Hannah Carl</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Wolfram_SDET_Tests_-_Hannah_Carl" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Wolfram_SDET_Tests_-_Hannah_Carl" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.wolfram.sdetchallenge.testng.InputMatchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">confirmTestInput(3 - 4)</span>
+                <span class="method-start">1765 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">end</span>
+                <span class="method-start">6477 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.wolfram.sdetchallenge.testng.ExpectedResultTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">6602 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkExpectedResult(3 - 4, -1)</span>
+                <span class="method-start">7667 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">end</span>
+                <span class="method-start">14159 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.wolfram.sdetchallenge.testng.InputMatchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">14543 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">confirmTestInput(2 + 5)</span>
+                <span class="method-start">15615 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">end</span>
+                <span class="method-start">21190 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.wolfram.sdetchallenge.testng.ExpectedResultTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">21327 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkExpectedResult(2 + 5, 7)</span>
+                <span class="method-start">22498 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">end</span>
+                <span class="method-start">28650 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.wolfram.sdetchallenge.testng.InputMatchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">28797 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">confirmTestInput(0)</span>
+                <span class="method-start">29922 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">end</span>
+                <span class="method-start">36011 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.wolfram.sdetchallenge.testng.ExpectedResultTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">36147 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkExpectedResult(0, zero)</span>
+                <span class="method-start">37302 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">end</span>
+                <span class="method-start">43709 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">43855 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkExpectedResult(6X6, 36)</span>
+                <span class="method-start">44993 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">end</span>
+                <span class="method-start">50422 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">50569 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkExpectedResult(how many seconds in a year, 3.154×10^7 seconds)</span>
+                <span class="method-start">51721 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">end</span>
+                <span class="method-start">58702 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">58865 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkExpectedResult(MDCCLXXVI, 1776)</span>
+                <span class="method-start">59879 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">end</span>
+                <span class="method-start">65176 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">65327 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkExpectedResult(is x^2-x surjective?, y(x) = x^2 - x is not surjective onto R)</span>
+                <span class="method-start">66477 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">end</span>
+                <span class="method-start">72208 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.wolfram.sdetchallenge.testng.InputMatchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">72353 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">confirmTestInput(list of months with exactly 31 days)</span>
+                <span class="method-start">73485 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">end</span>
+                <span class="method-start">79918 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">80057 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">confirmTestInput(_ | a | l | _ | _ | l | a | _ | _)</span>
+                <span class="method-start">81212 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">end</span>
+                <span class="method-start">88815 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.wolfram.sdetchallenge.testng.InputPageButtonCheck</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">88961 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyBrowseExamplesButton(https://www.wolframalpha.com/examples/?src=input)</span>
+                <span class="method-start">90139 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyMathematicsButton(https://www.wolframalpha.com/examples/mathematics/)</span>
+                <span class="method-start">96118 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyScienceTechButton(https://www.wolframalpha.com/examples/science-and-technology/)</span>
+                <span class="method-start">98681 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">end</span>
+                <span class="method-start">100099 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.wolfram.sdetchallenge.testng.CreateNotebookTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">100237 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">createNotebookTest((unnamed) - Wolfram Development Platform)</span>
+                <span class="method-start">101360 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">end</span>
+                <span class="method-start">114817 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.wolfram.sdetchallenge.testng.NotebookButtonCheck</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">114979 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">hyperLinkTest</span>
+                <span class="method-start">116135 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">specialCharactersTest</span>
+                <span class="method-start">129779 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">end</span>
+                <span class="method-start">142706 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

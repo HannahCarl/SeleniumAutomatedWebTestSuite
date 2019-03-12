@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Wolfram SDET Tests - Hannah Carl" verbose="1"> 
+    <test name="Test1">
+        <parameter name="testInput" value="3 - 4" />
+        <parameter name="testExpectedResult" value="-1" />
+            <classes>
+            <class name="com.wolfram.sdetchallenge.testng.InputMatchTest"/>
+            <class name="com.wolfram.sdetchallenge.testng.ExpectedResultTest"/>
+        </classes>
+    </test>
+    <test name="Test2">
+        <parameter name="testInput" value="2 + 5" />
+        <parameter name="testExpectedResult" value="7" />
+            <classes>
+            <class name="com.wolfram.sdetchallenge.testng.InputMatchTest"/>
+            <class name="com.wolfram.sdetchallenge.testng.ExpectedResultTest"/>
+        </classes>
+    </test>
+    <test name="Test3">
+        <parameter name="testInput" value="0" />
+        <parameter name="testExpectedResult" value="zero" />
+            <classes>
+            <class name="com.wolfram.sdetchallenge.testng.InputMatchTest"/>
+            <class name="com.wolfram.sdetchallenge.testng.ExpectedResultTest"/>
+        </classes>
+    </test>
+    <test name="Test4">
+        <parameter name="testInput" value="6X6" />
+        <parameter name="testExpectedResult" value="36" />
+            <classes>
+            <class name="com.wolfram.sdetchallenge.testng.ExpectedResultTest"/>
+        </classes>
+    </test>
+     <test name="Test5">
+        <parameter name="testInput" value="how many seconds in a year" />
+        <parameter name="testExpectedResult" value="3.154×10^7 seconds" />
+            <classes>
+            <class name="com.wolfram.sdetchallenge.testng.ExpectedResultTest"/>
+        </classes>
+    </test>
+    <test name="Test6">
+        <parameter name="testInput" value="MDCCLXXVI" />
+        <parameter name="testExpectedResult" value="1776" />
+            <classes>
+            <class name="com.wolfram.sdetchallenge.testng.ExpectedResultTest"/>
+        </classes>
+    </test>
+    <test name="Test7">
+        <parameter name="testInput" value="is x^2-x surjective?" />
+        <parameter name="testExpectedResult" value="y(x) = x^2 - x is not surjective onto R" />
+            <classes>
+            <class name="com.wolfram.sdetchallenge.testng.ExpectedResultTest"/>
+        </classes>
+    </test>
+    <test name="Test8">
+        <parameter name="testInput" value="list of months with exactly 31 days" />
+            <classes>
+            <class name="com.wolfram.sdetchallenge.testng.InputMatchTest"/>
+        </classes>
+    </test>
+     <test name="Test9">
+        <parameter name="testInput" value="_ | a | l | _ | _ | l | a | _ | _" />
+            <classes>
+            <class name="com.wolfram.sdetchallenge.testng.InputMatchTest"/>
+        </classes>
+    </test>
+   
+     <test name="Test10">
+     	<parameter name="browseExamplesURL" value="https://www.wolframalpha.com/examples/?src=input" />
+     	<parameter name="mathematicsURL" value="https://www.wolframalpha.com/examples/mathematics/" />
+     	<parameter name="scienceTechURL" value="https://www.wolframalpha.com/examples/science-and-technology/" />
+            <classes>
+            <class name="com.wolfram.sdetchallenge.testng.InputPageButtonCheck"/>
+        </classes>
+    </test>
+    <test name="Test11">
+        <parameter name="notebookTitle" value="(unnamed) - Wolfram Development Platform" />
+            <classes>
+            <class name="com.wolfram.sdetchallenge.testng.CreateNotebookTest"/>
+        </classes>
+    </test>
+    <test name="Test12">
+            <classes>
+            <class name="com.wolfram.sdetchallenge.testng.NotebookButtonCheck"/>
+        </classes>
+    </test>
+   
+   
+    
+</suite>
+
