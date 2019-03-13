@@ -118,7 +118,7 @@ public class WolframNotebookPage extends PageObject{
 		tryNbButton.click();
 		
 	}
-	
+	//method will click pause on video
 	public void pauseButton() {
 		pauseButton.click();
 	}
