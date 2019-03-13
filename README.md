@@ -4,7 +4,9 @@
 
 1. Currently the driver supports the Chrome browser, but includes code for Firefox as well.
 2.  Open the driver. java file (src/com/wolfram/sdetchallenge/main)
-3. Uncomment the lines marked by "//firefox", as well as, commenting the lines marked by "//chrome".
+3. If you wish to use Firefox, uncomment the lines marked by "//firefox", as well as, commenting the lines marked by "//chrome".
+4. Locate the directory of chromedriver if using Chrome, or geckodriver for firefox or download if necessary.
+4. Replace Line 17 of Driver.java with the correct directory of the driver.
 
 ---
 
@@ -12,8 +14,7 @@
 
 1. Import project into Java IDE.
 2. Link required libraries (Testng) and download/install them if necessary.
-3. Locate the directory of chromeDriver if using Chrome, or download if necessary.
-4. Replace Line 17 of Driver.java with the correct directory of the chromeDriver.
+3. Press the execute button in the IDE.
 
 ---
 

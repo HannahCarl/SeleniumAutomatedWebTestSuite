@@ -15,14 +15,15 @@ import org.testng.annotations.BeforeClass;
 //Driver class
 public class Driver {
 	protected static WebDriver webDriver;															//create web driver
-	protected static String chromeDriverDirectory = "/Users/hannahposch/Downloads/chromedriver";	//directory to chromedriver
+	protected static String driverDirectory = "/Users/hannahposch/Downloads/chromedriver";			//directory to driver
 	
 	@BeforeClass
 	public static void setUp() {
 		//setup new driver
-		System.setProperty("webdriver.chrome.driver",chromeDriverDirectory);  	//chrome
-		webDriver = new ChromeDriver();											//chrome
-		//webDriver = new FirefoxDriver();										//firefox
+		System.setProperty("webdriver.chrome.driver",driverDirectory);  								//chrome
+		webDriver = new ChromeDriver();																	//chrome
+		//System.setProperty("webdriver.gecko.driver", driverDirectory);								//firefox
+		//webDriver = new FirefoxDriver();																//firefox
 		webDriver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); 	
 	}
 	

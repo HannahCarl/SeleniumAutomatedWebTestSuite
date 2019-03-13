@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="20" passed="20">
   <reporter-output>
   </reporter-output>
-  <suite name="Wolfram SDET Tests - Hannah Carl" duration-ms="131835" started-at="2019-03-13T15:31:01Z" finished-at="2019-03-13T15:33:13Z">
+  <suite name="Wolfram SDET Tests - Hannah Carl" duration-ms="130010" started-at="2019-03-13T18:00:39Z" finished-at="2019-03-13T18:02:49Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="14415" started-at="2019-03-13T15:31:01Z" finished-at="2019-03-13T15:31:16Z">
+    <test name="Test1" duration-ms="14527" started-at="2019-03-13T18:00:39Z" finished-at="2019-03-13T18:00:53Z">
       <class name="com.wolfram.sdetchallenge.testng.CreateNotebookTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wolfram.sdetchallenge.testng.CreateNotebookTest@5c7fa833]" name="setUp" is-config="true" duration-ms="1718" started-at="2019-03-13T15:31:01Z" finished-at="2019-03-13T15:31:03Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wolfram.sdetchallenge.testng.CreateNotebookTest@5c7fa833]" name="setUp" is-config="true" duration-ms="1592" started-at="2019-03-13T18:00:39Z" finished-at="2019-03-13T18:00:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createNotebookTest(java.lang.String)[pri:0, instance:com.wolfram.sdetchallenge.testng.CreateNotebookTest@5c7fa833]" name="createNotebookTest" duration-ms="12538" started-at="2019-03-13T15:31:03Z" finished-at="2019-03-13T15:31:16Z">
+        <test-method status="PASS" signature="createNotebookTest(java.lang.String)[pri:0, instance:com.wolfram.sdetchallenge.testng.CreateNotebookTest@5c7fa833]" name="createNotebookTest" duration-ms="12770" started-at="2019-03-13T18:00:40Z" finished-at="2019-03-13T18:00:53Z">
           <params>
             <param index="0">
               <value>
@@ -22,39 +22,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNotebookTest -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.wolfram.sdetchallenge.testng.CreateNotebookTest@5c7fa833]" name="end" is-config="true" duration-ms="140" started-at="2019-03-13T15:31:16Z" finished-at="2019-03-13T15:31:16Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:com.wolfram.sdetchallenge.testng.CreateNotebookTest@5c7fa833]" name="end" is-config="true" duration-ms="142" started-at="2019-03-13T18:00:53Z" finished-at="2019-03-13T18:00:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
       </class> <!-- com.wolfram.sdetchallenge.testng.CreateNotebookTest -->
     </test> <!-- Test1 -->
-    <test name="Test2" duration-ms="26083" started-at="2019-03-13T15:31:16Z" finished-at="2019-03-13T15:31:42Z">
+    <test name="Test2" duration-ms="26460" started-at="2019-03-13T18:00:53Z" finished-at="2019-03-13T18:01:20Z">
       <class name="com.wolfram.sdetchallenge.testng.NotebookButtonCheck">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wolfram.sdetchallenge.testng.NotebookButtonCheck@42d80b78]" name="setUp" is-config="true" duration-ms="1151" started-at="2019-03-13T15:31:16Z" finished-at="2019-03-13T15:31:17Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wolfram.sdetchallenge.testng.NotebookButtonCheck@42d80b78]" name="setUp" is-config="true" duration-ms="1079" started-at="2019-03-13T18:00:53Z" finished-at="2019-03-13T18:00:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="hyperLinkTest()[pri:0, instance:com.wolfram.sdetchallenge.testng.NotebookButtonCheck@42d80b78]" name="hyperLinkTest" duration-ms="12340" started-at="2019-03-13T15:31:17Z" finished-at="2019-03-13T15:31:29Z">
+        <test-method status="PASS" signature="hyperLinkTest()[pri:0, instance:com.wolfram.sdetchallenge.testng.NotebookButtonCheck@42d80b78]" name="hyperLinkTest" duration-ms="12717" started-at="2019-03-13T18:00:54Z" finished-at="2019-03-13T18:01:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hyperLinkTest -->
-        <test-method status="PASS" signature="specialCharactersTest()[pri:0, instance:com.wolfram.sdetchallenge.testng.NotebookButtonCheck@42d80b78]" name="specialCharactersTest" duration-ms="12426" started-at="2019-03-13T15:31:29Z" finished-at="2019-03-13T15:31:42Z">
+        <test-method status="PASS" signature="specialCharactersTest()[pri:0, instance:com.wolfram.sdetchallenge.testng.NotebookButtonCheck@42d80b78]" name="specialCharactersTest" duration-ms="12508" started-at="2019-03-13T18:01:07Z" finished-at="2019-03-13T18:01:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- specialCharactersTest -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.wolfram.sdetchallenge.testng.NotebookButtonCheck@42d80b78]" name="end" is-config="true" duration-ms="162" started-at="2019-03-13T15:31:42Z" finished-at="2019-03-13T15:31:42Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:com.wolfram.sdetchallenge.testng.NotebookButtonCheck@42d80b78]" name="end" is-config="true" duration-ms="151" started-at="2019-03-13T18:01:20Z" finished-at="2019-03-13T18:01:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
       </class> <!-- com.wolfram.sdetchallenge.testng.NotebookButtonCheck -->
     </test> <!-- Test2 -->
-    <test name="Test3" duration-ms="12533" started-at="2019-03-13T15:31:42Z" finished-at="2019-03-13T15:31:54Z">
+    <test name="Test3" duration-ms="10088" started-at="2019-03-13T18:01:20Z" finished-at="2019-03-13T18:01:30Z">
       <class name="com.wolfram.sdetchallenge.testng.ExpectedResultTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@7cd62f43]" name="setUp" is-config="true" duration-ms="1014" started-at="2019-03-13T15:31:48Z" finished-at="2019-03-13T15:31:50Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@7cd62f43]" name="setUp" is-config="true" duration-ms="1138" started-at="2019-03-13T18:01:25Z" finished-at="2019-03-13T18:01:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="checkExpectedResult(java.lang.String, java.lang.String)[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@7cd62f43]" name="checkExpectedResult" duration-ms="4772" started-at="2019-03-13T15:31:50Z" finished-at="2019-03-13T15:31:54Z">
+        <test-method status="PASS" signature="checkExpectedResult(java.lang.String, java.lang.String)[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@7cd62f43]" name="checkExpectedResult" duration-ms="3676" started-at="2019-03-13T18:01:26Z" finished-at="2019-03-13T18:01:30Z">
           <params>
             <param index="0">
               <value>
@@ -70,17 +70,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkExpectedResult -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@7cd62f43]" name="end" is-config="true" duration-ms="136" started-at="2019-03-13T15:31:54Z" finished-at="2019-03-13T15:31:54Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@7cd62f43]" name="end" is-config="true" duration-ms="187" started-at="2019-03-13T18:01:30Z" finished-at="2019-03-13T18:01:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
       </class> <!-- com.wolfram.sdetchallenge.testng.ExpectedResultTest -->
       <class name="com.wolfram.sdetchallenge.testng.InputMatchTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wolfram.sdetchallenge.testng.InputMatchTest@6a41eaa2]" name="setUp" is-config="true" duration-ms="1079" started-at="2019-03-13T15:31:42Z" finished-at="2019-03-13T15:31:43Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wolfram.sdetchallenge.testng.InputMatchTest@6a41eaa2]" name="setUp" is-config="true" duration-ms="1053" started-at="2019-03-13T18:01:20Z" finished-at="2019-03-13T18:01:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="confirmTestInput(java.lang.String)[pri:0, instance:com.wolfram.sdetchallenge.testng.InputMatchTest@6a41eaa2]" name="confirmTestInput" duration-ms="5391" started-at="2019-03-13T15:31:43Z" finished-at="2019-03-13T15:31:48Z">
+        <test-method status="PASS" signature="confirmTestInput(java.lang.String)[pri:0, instance:com.wolfram.sdetchallenge.testng.InputMatchTest@6a41eaa2]" name="confirmTestInput" duration-ms="3892" started-at="2019-03-13T18:01:21Z" finished-at="2019-03-13T18:01:25Z">
           <params>
             <param index="0">
               <value>
@@ -91,19 +91,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- confirmTestInput -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.wolfram.sdetchallenge.testng.InputMatchTest@6a41eaa2]" name="end" is-config="true" duration-ms="135" started-at="2019-03-13T15:31:48Z" finished-at="2019-03-13T15:31:48Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:com.wolfram.sdetchallenge.testng.InputMatchTest@6a41eaa2]" name="end" is-config="true" duration-ms="135" started-at="2019-03-13T18:01:25Z" finished-at="2019-03-13T18:01:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
       </class> <!-- com.wolfram.sdetchallenge.testng.InputMatchTest -->
     </test> <!-- Test3 -->
-    <test name="Test4" duration-ms="11728" started-at="2019-03-13T15:31:54Z" finished-at="2019-03-13T15:32:06Z">
+    <test name="Test4" duration-ms="12072" started-at="2019-03-13T18:01:30Z" finished-at="2019-03-13T18:01:42Z">
       <class name="com.wolfram.sdetchallenge.testng.ExpectedResultTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@42e26948]" name="setUp" is-config="true" duration-ms="1086" started-at="2019-03-13T15:32:00Z" finished-at="2019-03-13T15:32:01Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@42e26948]" name="setUp" is-config="true" duration-ms="1121" started-at="2019-03-13T18:01:36Z" finished-at="2019-03-13T18:01:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="checkExpectedResult(java.lang.String, java.lang.String)[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@42e26948]" name="checkExpectedResult" duration-ms="4696" started-at="2019-03-13T15:32:01Z" finished-at="2019-03-13T15:32:06Z">
+        <test-method status="PASS" signature="checkExpectedResult(java.lang.String, java.lang.String)[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@42e26948]" name="checkExpectedResult" duration-ms="4345" started-at="2019-03-13T18:01:37Z" finished-at="2019-03-13T18:01:42Z">
           <params>
             <param index="0">
               <value>
@@ -119,17 +119,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkExpectedResult -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@42e26948]" name="end" is-config="true" duration-ms="125" started-at="2019-03-13T15:32:06Z" finished-at="2019-03-13T15:32:06Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@42e26948]" name="end" is-config="true" duration-ms="140" started-at="2019-03-13T18:01:42Z" finished-at="2019-03-13T18:01:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
       </class> <!-- com.wolfram.sdetchallenge.testng.ExpectedResultTest -->
       <class name="com.wolfram.sdetchallenge.testng.InputMatchTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wolfram.sdetchallenge.testng.InputMatchTest@1794d431]" name="setUp" is-config="true" duration-ms="1110" started-at="2019-03-13T15:31:54Z" finished-at="2019-03-13T15:31:56Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wolfram.sdetchallenge.testng.InputMatchTest@1794d431]" name="setUp" is-config="true" duration-ms="1078" started-at="2019-03-13T18:01:30Z" finished-at="2019-03-13T18:01:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="confirmTestInput(java.lang.String)[pri:0, instance:com.wolfram.sdetchallenge.testng.InputMatchTest@1794d431]" name="confirmTestInput" duration-ms="4573" started-at="2019-03-13T15:31:56Z" finished-at="2019-03-13T15:32:00Z">
+        <test-method status="PASS" signature="confirmTestInput(java.lang.String)[pri:0, instance:com.wolfram.sdetchallenge.testng.InputMatchTest@1794d431]" name="confirmTestInput" duration-ms="5251" started-at="2019-03-13T18:01:31Z" finished-at="2019-03-13T18:01:36Z">
           <params>
             <param index="0">
               <value>
@@ -140,19 +140,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- confirmTestInput -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.wolfram.sdetchallenge.testng.InputMatchTest@1794d431]" name="end" is-config="true" duration-ms="134" started-at="2019-03-13T15:32:00Z" finished-at="2019-03-13T15:32:00Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:com.wolfram.sdetchallenge.testng.InputMatchTest@1794d431]" name="end" is-config="true" duration-ms="135" started-at="2019-03-13T18:01:36Z" finished-at="2019-03-13T18:01:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
       </class> <!-- com.wolfram.sdetchallenge.testng.InputMatchTest -->
     </test> <!-- Test4 -->
-    <test name="Test5" duration-ms="13225" started-at="2019-03-13T15:32:06Z" finished-at="2019-03-13T15:32:19Z">
+    <test name="Test5" duration-ms="14654" started-at="2019-03-13T18:01:42Z" finished-at="2019-03-13T18:01:57Z">
       <class name="com.wolfram.sdetchallenge.testng.ExpectedResultTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@77cd7a0]" name="setUp" is-config="true" duration-ms="980" started-at="2019-03-13T15:32:13Z" finished-at="2019-03-13T15:32:14Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@77cd7a0]" name="setUp" is-config="true" duration-ms="1116" started-at="2019-03-13T18:01:49Z" finished-at="2019-03-13T18:01:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="checkExpectedResult(java.lang.String, java.lang.String)[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@77cd7a0]" name="checkExpectedResult" duration-ms="5580" started-at="2019-03-13T15:32:14Z" finished-at="2019-03-13T15:32:19Z">
+        <test-method status="PASS" signature="checkExpectedResult(java.lang.String, java.lang.String)[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@77cd7a0]" name="checkExpectedResult" duration-ms="6415" started-at="2019-03-13T18:01:50Z" finished-at="2019-03-13T18:01:56Z">
           <params>
             <param index="0">
               <value>
@@ -168,17 +168,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkExpectedResult -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@77cd7a0]" name="end" is-config="true" duration-ms="127" started-at="2019-03-13T15:32:19Z" finished-at="2019-03-13T15:32:19Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@77cd7a0]" name="end" is-config="true" duration-ms="135" started-at="2019-03-13T18:01:56Z" finished-at="2019-03-13T18:01:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
       </class> <!-- com.wolfram.sdetchallenge.testng.ExpectedResultTest -->
       <class name="com.wolfram.sdetchallenge.testng.InputMatchTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wolfram.sdetchallenge.testng.InputMatchTest@4667ae56]" name="setUp" is-config="true" duration-ms="1007" started-at="2019-03-13T15:32:06Z" finished-at="2019-03-13T15:32:07Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wolfram.sdetchallenge.testng.InputMatchTest@4667ae56]" name="setUp" is-config="true" duration-ms="1121" started-at="2019-03-13T18:01:42Z" finished-at="2019-03-13T18:01:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="confirmTestInput(java.lang.String)[pri:0, instance:com.wolfram.sdetchallenge.testng.InputMatchTest@4667ae56]" name="confirmTestInput" duration-ms="5412" started-at="2019-03-13T15:32:07Z" finished-at="2019-03-13T15:32:13Z">
+        <test-method status="PASS" signature="confirmTestInput(java.lang.String)[pri:0, instance:com.wolfram.sdetchallenge.testng.InputMatchTest@4667ae56]" name="confirmTestInput" duration-ms="5720" started-at="2019-03-13T18:01:43Z" finished-at="2019-03-13T18:01:49Z">
           <params>
             <param index="0">
               <value>
@@ -189,19 +189,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- confirmTestInput -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.wolfram.sdetchallenge.testng.InputMatchTest@4667ae56]" name="end" is-config="true" duration-ms="116" started-at="2019-03-13T15:32:13Z" finished-at="2019-03-13T15:32:13Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:com.wolfram.sdetchallenge.testng.InputMatchTest@4667ae56]" name="end" is-config="true" duration-ms="143" started-at="2019-03-13T18:01:49Z" finished-at="2019-03-13T18:01:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
       </class> <!-- com.wolfram.sdetchallenge.testng.InputMatchTest -->
     </test> <!-- Test5 -->
-    <test name="Test6" duration-ms="7384" started-at="2019-03-13T15:32:19Z" finished-at="2019-03-13T15:32:27Z">
+    <test name="Test6" duration-ms="5405" started-at="2019-03-13T18:01:57Z" finished-at="2019-03-13T18:02:02Z">
       <class name="com.wolfram.sdetchallenge.testng.ExpectedResultTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@464bee09]" name="setUp" is-config="true" duration-ms="1011" started-at="2019-03-13T15:32:19Z" finished-at="2019-03-13T15:32:20Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@464bee09]" name="setUp" is-config="true" duration-ms="1104" started-at="2019-03-13T18:01:57Z" finished-at="2019-03-13T18:01:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="checkExpectedResult(java.lang.String, java.lang.String)[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@464bee09]" name="checkExpectedResult" duration-ms="6234" started-at="2019-03-13T15:32:20Z" finished-at="2019-03-13T15:32:27Z">
+        <test-method status="PASS" signature="checkExpectedResult(java.lang.String, java.lang.String)[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@464bee09]" name="checkExpectedResult" duration-ms="4174" started-at="2019-03-13T18:01:58Z" finished-at="2019-03-13T18:02:02Z">
           <params>
             <param index="0">
               <value>
@@ -217,19 +217,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkExpectedResult -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@464bee09]" name="end" is-config="true" duration-ms="138" started-at="2019-03-13T15:32:27Z" finished-at="2019-03-13T15:32:27Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@464bee09]" name="end" is-config="true" duration-ms="125" started-at="2019-03-13T18:02:02Z" finished-at="2019-03-13T18:02:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
       </class> <!-- com.wolfram.sdetchallenge.testng.ExpectedResultTest -->
     </test> <!-- Test6 -->
-    <test name="Test7" duration-ms="7959" started-at="2019-03-13T15:32:27Z" finished-at="2019-03-13T15:32:35Z">
+    <test name="Test7" duration-ms="7812" started-at="2019-03-13T18:02:02Z" finished-at="2019-03-13T18:02:10Z">
       <class name="com.wolfram.sdetchallenge.testng.ExpectedResultTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@598067a5]" name="setUp" is-config="true" duration-ms="1102" started-at="2019-03-13T15:32:27Z" finished-at="2019-03-13T15:32:28Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@598067a5]" name="setUp" is-config="true" duration-ms="1065" started-at="2019-03-13T18:02:02Z" finished-at="2019-03-13T18:02:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="checkExpectedResult(java.lang.String, java.lang.String)[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@598067a5]" name="checkExpectedResult" duration-ms="6727" started-at="2019-03-13T15:32:28Z" finished-at="2019-03-13T15:32:35Z">
+        <test-method status="PASS" signature="checkExpectedResult(java.lang.String, java.lang.String)[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@598067a5]" name="checkExpectedResult" duration-ms="6608" started-at="2019-03-13T18:02:03Z" finished-at="2019-03-13T18:02:10Z">
           <params>
             <param index="0">
               <value>
@@ -245,19 +245,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkExpectedResult -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@598067a5]" name="end" is-config="true" duration-ms="128" started-at="2019-03-13T15:32:35Z" finished-at="2019-03-13T15:32:35Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@598067a5]" name="end" is-config="true" duration-ms="137" started-at="2019-03-13T18:02:10Z" finished-at="2019-03-13T18:02:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
       </class> <!-- com.wolfram.sdetchallenge.testng.ExpectedResultTest -->
     </test> <!-- Test7 -->
-    <test name="Test8" duration-ms="5256" started-at="2019-03-13T15:32:35Z" finished-at="2019-03-13T15:32:40Z">
+    <test name="Test8" duration-ms="5179" started-at="2019-03-13T18:02:10Z" finished-at="2019-03-13T18:02:15Z">
       <class name="com.wolfram.sdetchallenge.testng.ExpectedResultTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@589838eb]" name="setUp" is-config="true" duration-ms="987" started-at="2019-03-13T15:32:35Z" finished-at="2019-03-13T15:32:36Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@589838eb]" name="setUp" is-config="true" duration-ms="1119" started-at="2019-03-13T18:02:10Z" finished-at="2019-03-13T18:02:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="checkExpectedResult(java.lang.String, java.lang.String)[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@589838eb]" name="checkExpectedResult" duration-ms="4131" started-at="2019-03-13T15:32:36Z" finished-at="2019-03-13T15:32:40Z">
+        <test-method status="PASS" signature="checkExpectedResult(java.lang.String, java.lang.String)[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@589838eb]" name="checkExpectedResult" duration-ms="3920" started-at="2019-03-13T18:02:11Z" finished-at="2019-03-13T18:02:15Z">
           <params>
             <param index="0">
               <value>
@@ -273,19 +273,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkExpectedResult -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@589838eb]" name="end" is-config="true" duration-ms="137" started-at="2019-03-13T15:32:40Z" finished-at="2019-03-13T15:32:40Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@589838eb]" name="end" is-config="true" duration-ms="139" started-at="2019-03-13T18:02:15Z" finished-at="2019-03-13T18:02:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
       </class> <!-- com.wolfram.sdetchallenge.testng.ExpectedResultTest -->
     </test> <!-- Test8 -->
-    <test name="Test9" duration-ms="6070" started-at="2019-03-13T15:32:40Z" finished-at="2019-03-13T15:32:46Z">
+    <test name="Test9" duration-ms="7390" started-at="2019-03-13T18:02:15Z" finished-at="2019-03-13T18:02:22Z">
       <class name="com.wolfram.sdetchallenge.testng.ExpectedResultTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@3fee9989]" name="setUp" is-config="true" duration-ms="1111" started-at="2019-03-13T15:32:40Z" finished-at="2019-03-13T15:32:41Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@3fee9989]" name="setUp" is-config="true" duration-ms="1125" started-at="2019-03-13T18:02:15Z" finished-at="2019-03-13T18:02:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="checkExpectedResult(java.lang.String, java.lang.String)[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@3fee9989]" name="checkExpectedResult" duration-ms="4818" started-at="2019-03-13T15:32:41Z" finished-at="2019-03-13T15:32:46Z">
+        <test-method status="PASS" signature="checkExpectedResult(java.lang.String, java.lang.String)[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@3fee9989]" name="checkExpectedResult" duration-ms="6126" started-at="2019-03-13T18:02:16Z" finished-at="2019-03-13T18:02:22Z">
           <params>
             <param index="0">
               <value>
@@ -301,19 +301,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkExpectedResult -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@3fee9989]" name="end" is-config="true" duration-ms="140" started-at="2019-03-13T15:32:46Z" finished-at="2019-03-13T15:32:46Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:com.wolfram.sdetchallenge.testng.ExpectedResultTest@3fee9989]" name="end" is-config="true" duration-ms="137" started-at="2019-03-13T18:02:22Z" finished-at="2019-03-13T18:02:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
       </class> <!-- com.wolfram.sdetchallenge.testng.ExpectedResultTest -->
     </test> <!-- Test9 -->
-    <test name="Test10" duration-ms="6684" started-at="2019-03-13T15:32:46Z" finished-at="2019-03-13T15:32:53Z">
+    <test name="Test10" duration-ms="6804" started-at="2019-03-13T18:02:22Z" finished-at="2019-03-13T18:02:29Z">
       <class name="com.wolfram.sdetchallenge.testng.InputMatchTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wolfram.sdetchallenge.testng.InputMatchTest@e45f292]" name="setUp" is-config="true" duration-ms="1102" started-at="2019-03-13T15:32:46Z" finished-at="2019-03-13T15:32:47Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wolfram.sdetchallenge.testng.InputMatchTest@e45f292]" name="setUp" is-config="true" duration-ms="1093" started-at="2019-03-13T18:02:22Z" finished-at="2019-03-13T18:02:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="confirmTestInput(java.lang.String)[pri:0, instance:com.wolfram.sdetchallenge.testng.InputMatchTest@e45f292]" name="confirmTestInput" duration-ms="5452" started-at="2019-03-13T15:32:47Z" finished-at="2019-03-13T15:32:53Z">
+        <test-method status="PASS" signature="confirmTestInput(java.lang.String)[pri:0, instance:com.wolfram.sdetchallenge.testng.InputMatchTest@e45f292]" name="confirmTestInput" duration-ms="5569" started-at="2019-03-13T18:02:23Z" finished-at="2019-03-13T18:02:29Z">
           <params>
             <param index="0">
               <value>
@@ -324,19 +324,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- confirmTestInput -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.wolfram.sdetchallenge.testng.InputMatchTest@e45f292]" name="end" is-config="true" duration-ms="127" started-at="2019-03-13T15:32:53Z" finished-at="2019-03-13T15:32:53Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:com.wolfram.sdetchallenge.testng.InputMatchTest@e45f292]" name="end" is-config="true" duration-ms="141" started-at="2019-03-13T18:02:29Z" finished-at="2019-03-13T18:02:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
       </class> <!-- com.wolfram.sdetchallenge.testng.InputMatchTest -->
     </test> <!-- Test10 -->
-    <test name="Test11" duration-ms="7843" started-at="2019-03-13T15:32:53Z" finished-at="2019-03-13T15:33:01Z">
+    <test name="Test11" duration-ms="7844" started-at="2019-03-13T18:02:29Z" finished-at="2019-03-13T18:02:37Z">
       <class name="com.wolfram.sdetchallenge.testng.InputMatchTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wolfram.sdetchallenge.testng.InputMatchTest@27c20538]" name="setUp" is-config="true" duration-ms="985" started-at="2019-03-13T15:32:53Z" finished-at="2019-03-13T15:32:54Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wolfram.sdetchallenge.testng.InputMatchTest@27c20538]" name="setUp" is-config="true" duration-ms="1156" started-at="2019-03-13T18:02:29Z" finished-at="2019-03-13T18:02:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="confirmTestInput(java.lang.String)[pri:0, instance:com.wolfram.sdetchallenge.testng.InputMatchTest@27c20538]" name="confirmTestInput" duration-ms="6726" started-at="2019-03-13T15:32:54Z" finished-at="2019-03-13T15:33:00Z">
+        <test-method status="PASS" signature="confirmTestInput(java.lang.String)[pri:0, instance:com.wolfram.sdetchallenge.testng.InputMatchTest@27c20538]" name="confirmTestInput" duration-ms="6552" started-at="2019-03-13T18:02:30Z" finished-at="2019-03-13T18:02:37Z">
           <params>
             <param index="0">
               <value>
@@ -347,19 +347,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- confirmTestInput -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.wolfram.sdetchallenge.testng.InputMatchTest@27c20538]" name="end" is-config="true" duration-ms="130" started-at="2019-03-13T15:33:00Z" finished-at="2019-03-13T15:33:01Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:com.wolfram.sdetchallenge.testng.InputMatchTest@27c20538]" name="end" is-config="true" duration-ms="135" started-at="2019-03-13T18:02:37Z" finished-at="2019-03-13T18:02:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
       </class> <!-- com.wolfram.sdetchallenge.testng.InputMatchTest -->
     </test> <!-- Test11 -->
-    <test name="Test12" duration-ms="12565" started-at="2019-03-13T15:33:01Z" finished-at="2019-03-13T15:33:13Z">
+    <test name="Test12" duration-ms="11674" started-at="2019-03-13T18:02:37Z" finished-at="2019-03-13T18:02:49Z">
       <class name="com.wolfram.sdetchallenge.testng.InputPageButtonCheck">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wolfram.sdetchallenge.testng.InputPageButtonCheck@1ed4004b]" name="setUp" is-config="true" duration-ms="1128" started-at="2019-03-13T15:33:01Z" finished-at="2019-03-13T15:33:02Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.wolfram.sdetchallenge.testng.InputPageButtonCheck@1ed4004b]" name="setUp" is-config="true" duration-ms="1099" started-at="2019-03-13T18:02:37Z" finished-at="2019-03-13T18:02:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyBrowseExamplesButton(java.lang.String)[pri:0, instance:com.wolfram.sdetchallenge.testng.InputPageButtonCheck@1ed4004b]" name="verifyBrowseExamplesButton" duration-ms="5738" started-at="2019-03-13T15:33:02Z" finished-at="2019-03-13T15:33:07Z">
+        <test-method status="PASS" signature="verifyBrowseExamplesButton(java.lang.String)[pri:0, instance:com.wolfram.sdetchallenge.testng.InputPageButtonCheck@1ed4004b]" name="verifyBrowseExamplesButton" duration-ms="4921" started-at="2019-03-13T18:02:38Z" finished-at="2019-03-13T18:02:43Z">
           <params>
             <param index="0">
               <value>
@@ -370,7 +370,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyBrowseExamplesButton -->
-        <test-method status="PASS" signature="verifyEverydayLifeButton(java.lang.String)[pri:0, instance:com.wolfram.sdetchallenge.testng.InputPageButtonCheck@1ed4004b]" name="verifyEverydayLifeButton" duration-ms="1598" started-at="2019-03-13T15:33:07Z" finished-at="2019-03-13T15:33:09Z">
+        <test-method status="PASS" signature="verifyEverydayLifeButton(java.lang.String)[pri:0, instance:com.wolfram.sdetchallenge.testng.InputPageButtonCheck@1ed4004b]" name="verifyEverydayLifeButton" duration-ms="1817" started-at="2019-03-13T18:02:43Z" finished-at="2019-03-13T18:02:45Z">
           <params>
             <param index="0">
               <value>
@@ -381,7 +381,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEverydayLifeButton -->
-        <test-method status="PASS" signature="verifyMathematicsButton(java.lang.String)[pri:0, instance:com.wolfram.sdetchallenge.testng.InputPageButtonCheck@1ed4004b]" name="verifyMathematicsButton" duration-ms="1458" started-at="2019-03-13T15:33:09Z" finished-at="2019-03-13T15:33:11Z">
+        <test-method status="PASS" signature="verifyMathematicsButton(java.lang.String)[pri:0, instance:com.wolfram.sdetchallenge.testng.InputPageButtonCheck@1ed4004b]" name="verifyMathematicsButton" duration-ms="1283" started-at="2019-03-13T18:02:45Z" finished-at="2019-03-13T18:02:46Z">
           <params>
             <param index="0">
               <value>
@@ -392,7 +392,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMathematicsButton -->
-        <test-method status="PASS" signature="verifyScienceTechButton(java.lang.String)[pri:0, instance:com.wolfram.sdetchallenge.testng.InputPageButtonCheck@1ed4004b]" name="verifyScienceTechButton" duration-ms="1221" started-at="2019-03-13T15:33:11Z" finished-at="2019-03-13T15:33:12Z">
+        <test-method status="PASS" signature="verifyScienceTechButton(java.lang.String)[pri:0, instance:com.wolfram.sdetchallenge.testng.InputPageButtonCheck@1ed4004b]" name="verifyScienceTechButton" duration-ms="1220" started-at="2019-03-13T18:02:46Z" finished-at="2019-03-13T18:02:47Z">
           <params>
             <param index="0">
               <value>
@@ -403,7 +403,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyScienceTechButton -->
-        <test-method status="PASS" signature="verifySocCultureButton(java.lang.String)[pri:0, instance:com.wolfram.sdetchallenge.testng.InputPageButtonCheck@1ed4004b]" name="verifySocCultureButton" duration-ms="1283" started-at="2019-03-13T15:33:12Z" finished-at="2019-03-13T15:33:13Z">
+        <test-method status="PASS" signature="verifySocCultureButton(java.lang.String)[pri:0, instance:com.wolfram.sdetchallenge.testng.InputPageButtonCheck@1ed4004b]" name="verifySocCultureButton" duration-ms="1191" started-at="2019-03-13T18:02:47Z" finished-at="2019-03-13T18:02:49Z">
           <params>
             <param index="0">
               <value>
@@ -414,7 +414,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySocCultureButton -->
-        <test-method status="PASS" signature="end()[pri:0, instance:com.wolfram.sdetchallenge.testng.InputPageButtonCheck@1ed4004b]" name="end" is-config="true" duration-ms="134" started-at="2019-03-13T15:33:13Z" finished-at="2019-03-13T15:33:13Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:com.wolfram.sdetchallenge.testng.InputPageButtonCheck@1ed4004b]" name="end" is-config="true" duration-ms="136" started-at="2019-03-13T18:02:49Z" finished-at="2019-03-13T18:02:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
