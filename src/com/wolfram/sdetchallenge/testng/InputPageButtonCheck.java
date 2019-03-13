@@ -28,10 +28,9 @@ public class InputPageButtonCheck extends Driver{
 	
 		//Get URL of new page
 		String actualURL = webDriver.getCurrentUrl();
-		
 	
 		//Delay
-		Thread.sleep(50);
+		Thread.sleep(10);
 	
 		//Verify browse examples was clicked by comparing page URL
 		assertEquals(browseExamplesURL,actualURL);
@@ -47,16 +46,16 @@ public class InputPageButtonCheck extends Driver{
 		webDriver.get("https://www.wolframalpha.com");
 		WolframInputPage wolframInputPage = new WolframInputPage(webDriver);
 	
-		//Click browse examples' button
+		//Click mathematics button
 		wolframInputPage.mathematics();
 	
 		//Get URL of new page
 		String actualURL = webDriver.getCurrentUrl();
 		
 		//Delay
-		Thread.sleep(50);
+		Thread.sleep(10);
 	
-		//Verify browse examples was clicked by comparing page URL
+		//Verify mathematics was clicked by comparing page URL
 		assertEquals(mathematicsURL,actualURL);
 	  
   }
@@ -70,17 +69,63 @@ public class InputPageButtonCheck extends Driver{
 			webDriver.get("https://www.wolframalpha.com");
 			WolframInputPage wolframInputPage = new WolframInputPage(webDriver);
 		
-			//Click browse examples' button
+			//Click science & technology button
 			wolframInputPage.scienceTech();
 		
 			//Get URL of new page
 			String actualURL = webDriver.getCurrentUrl();
 			
 			//Delay
-			Thread.sleep(50);
+			Thread.sleep(10);
 		
-			//Verify browse examples was clicked by comparing page URL
+			//Verify science & technology was clicked by comparing page URL
 			assertEquals(scienceTechURL,actualURL);
+		  
+	  }
+		
+		//Test will verify Society & Culture button works by comparing resulting URL
+		@Parameters({ "socCultureURL"})
+		@Test
+		public void verifySocCultureButton(String socCultureURL) throws IOException, InterruptedException  {
+			
+			//Create web driver for wolfram alpha
+			webDriver.get("https://www.wolframalpha.com");
+			WolframInputPage wolframInputPage = new WolframInputPage(webDriver);
+		
+			//Click society & culture button
+			wolframInputPage.socCulture();
+		
+			//Get URL of new page
+			String actualURL = webDriver.getCurrentUrl();
+			
+			//Delay
+			Thread.sleep(10);
+		
+			//Verify society & culture was clicked by comparing page URL
+			assertEquals(socCultureURL,actualURL);
+		  
+	  }
+		
+		//Test will verify Everyday Life button works by comparing resulting URL
+		@Parameters({ "everydayLifeURL"})
+		@Test
+		public void verifyEverydayLifeButton(String everydayLifeURL) throws IOException, InterruptedException  {
+			
+			//Create web driver for wolfram alpha
+			webDriver.get("https://www.wolframalpha.com");
+			WolframInputPage wolframInputPage = new WolframInputPage(webDriver);
+		
+			//Click everyday life button
+			wolframInputPage.everydayLife();
+		
+			//Get URL of new page
+			String actualURL = webDriver.getCurrentUrl();
+			
+			//Delay
+			Thread.sleep(10);
+		
+			//Verify everyday life was clicked by comparing page URL
+			assertEquals(everydayLifeURL,actualURL);
 		  
 	  }
 }

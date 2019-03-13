@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Wolfram SDET Tests - Hannah Carl]">
-  <test thread-count="5" name="Test11(failed)">
+  <test thread-count="5" name="Test1(failed)">
     <parameter name="notebookTitle" value="(unnamed) - Wolfram Development Platform"/>
     <classes>
       <class name="com.wolfram.sdetchallenge.testng.CreateNotebookTest">
@@ -12,17 +12,5 @@
         </methods>
       </class> <!-- com.wolfram.sdetchallenge.testng.CreateNotebookTest -->
     </classes>
-  </test> <!-- Test11(failed) -->
-  <test thread-count="5" name="Test12(failed)">
-    <classes>
-      <class name="com.wolfram.sdetchallenge.testng.NotebookButtonCheck">
-        <methods>
-          <include name="hyperLinkTest"/>
-          <include name="setUp"/>
-          <include name="end"/>
-          <include name="specialCharactersTest"/>
-        </methods>
-      </class> <!-- com.wolfram.sdetchallenge.testng.NotebookButtonCheck -->
-    </classes>
-  </test> <!-- Test12(failed) -->
+  </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Wolfram SDET Tests - Hannah Carl] -->

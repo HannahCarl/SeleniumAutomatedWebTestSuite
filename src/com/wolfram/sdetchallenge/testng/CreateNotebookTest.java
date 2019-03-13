@@ -28,6 +28,9 @@ public class CreateNotebookTest extends Driver{
 		webDriver.get("http://develop.open.wolframcloud.com/app/");
 		WolframNotebookPage wolframNotebookPage = new WolframNotebookPage(webDriver);
 		
+		//Delay
+		//Thread.sleep(10);
+		
 		
 		//Create notebook
 		wolframNotebookPage.createNotebook();

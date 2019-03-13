@@ -23,7 +23,13 @@ public class WolframInputPage extends PageObject{
 	private WebElement mathematicsButton;			//create mathematicsButton WebElement
 	
 	@FindBy(linkText = "Science & Technology")
-	private WebElement scienceTechButton;			//create mathematicsButton WebElement
+	private WebElement scienceTechButton;			//create scieceTechButton WebElement
+	
+	@FindBy(linkText = "Society & Culture")
+	private WebElement socCultureButton;			//create socCultureButton WebElement
+	
+	@FindBy(linkText = "Everyday Life")
+	private WebElement everydayLifeButton;			//create everydayLifeButton WebElement
 
 	
 	public WolframInputPage(WebDriver webDriver) {
@@ -53,8 +59,18 @@ public class WolframInputPage extends PageObject{
 	}
 	
 	//method will click science & technology
-		public void scienceTech() {
-			scienceTechButton.click();
-		}
+	public void scienceTech() {
+		scienceTechButton.click();
+	}
+	
+	//method will click society & culture
+	public void socCulture() {
+		socCultureButton.click();
+	}
+	
+	//method will click everyday life
+	public void everydayLife() {
+		everydayLifeButton.click();
+	}
 
 }

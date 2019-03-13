@@ -34,6 +34,21 @@ public class WolframNotebookPage extends PageObject{
 	@FindBy(id="IconId-Pi")
 	private WebElement piButton;							//create piButton WebElement
 	
+	@FindBy(linkText="Evaluation")
+	private WebElement evaluationButton;					//create evaluationButton WebElement
+	
+	@FindBy(linkText = "Evaluate All Cells")
+	private WebElement evaluateAllButton;					//create evaluateAllButton WebElement
+	
+	@FindBy(className= "cell-content")
+	private WebElement outputNotebookContent;				//create outputNotebookContent WebElement
+	
+	@FindBy(id="tryNb")
+	private WebElement tryNbButton;							//create tryNbButton WebElement
+	
+	@FindBy(className="pause-icon")
+	private WebElement pauseButton;							//create pauseButton WebElement
+	
 
 	public WolframNotebookPage(WebDriver webDriver) {
 		super(webDriver);
@@ -82,6 +97,32 @@ public class WolframNotebookPage extends PageObject{
 		piButton.click();
 	}
 	
+	//method will click evaluation button
+	public void evalButton() {
+		evaluationButton.click();
+	}
+	
+	//method will click evaluate all button
+	public void evalAllButton() {
+		evaluateAllButton.click();
+	}
+	
+	//method will read result cell
+	public String getResult() {
+		return outputNotebookContent.getText();
+		
+	}
+	
+	//method will click things to try
+	public void thingsToTry() {
+		tryNbButton.click();
+		
+	}
+	
+	public void pauseButton() {
+		pauseButton.click();
+	}
+
 	
 
 }
