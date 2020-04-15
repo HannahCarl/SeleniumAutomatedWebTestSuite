@@ -1,4 +1,4 @@
-**Wolfram SDET Challenge - Hannah Carl**
+**Wolfram Testing Project - Hannah Carl**
 
 ## Browser Platform
 
